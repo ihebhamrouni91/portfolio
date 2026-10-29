@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="ar-TN" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iheb Hamrouni – Video Creatives</title>
+<meta name="description" content="Iheb Hamrouni – 5 years of experience creating video creatives with voiceover for e-commerce brands.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff;
+  --alt:#f5f5f7;
+  --text:#1d1d1f;
+  --sub:#6e6e73;
+  --blue:#0071e3;
+  --blue-h:#0077ed;
+  --radius:22px;
+  --font:-apple-system,BlinkMacSystemFont,"SF Arabic","SF Pro Display","SF Pro Text","Noto Sans Arabic","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px; -webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:8px}
+.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block}
+
+/* Apple-inspired liquid glass system */
+:root{
+  --glass-bg:rgba(255,255,255,.48);
+  --glass-border:rgba(255,255,255,.66);
+  --glass-shadow:0 18px 55px rgba(20,35,60,.10),inset 0 1px 0 rgba(255,255,255,.78);
+  --glass-blur:blur(24px) saturate(175%);
+}
+body{
+  background:
+    radial-gradient(ellipse at 12% 8%,rgba(0,113,227,.07),transparent 34%),
+    radial-gradient(ellipse at 88% 42%,rgba(120,160,255,.08),transparent 32%),
+    var(--bg);
+}
+::selection{background:rgba(0,113,227,.18)}
+.nav,.btn,.link,.clip,.brands span,.contact a.mail,.contact a.phone{
+  -webkit-tap-highlight-color:transparent;
+}
+.nav{
+  background:rgba(255,255,255,.64);
+  border-bottom:1px solid rgba(255,255,255,.78);
+  box-shadow:0 6px 24px rgba(20,35,60,.045);
+}
+.nav .in{position:relative}
+.nav .in::after{
+  content:"";position:absolute;inset:5px 12px;pointer-events:none;border-radius:999px;
+  background:linear-gradient(110deg,rgba(255,255,255,.42),transparent 45%,rgba(255,255,255,.16));
+  opacity:.7;
+}
+.btn{
+  border:1px solid rgba(255,255,255,.36);
+  box-shadow:0 8px 24px rgba(0,75,180,.18),inset 0 1px 0 rgba(255,255,255,.35);
+}
+.btn:hover{box-shadow:0 12px 30px rgba(0,75,180,.24),inset 0 1px 0 rgba(255,255,255,.5)}
+.work{
+  position:relative;
+  background:linear-gradient(135deg,rgba(245,247,251,.92),rgba(235,241,249,.76));
+}
+.work::before,.contact::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at 20% 0%,rgba(255,255,255,.92),transparent 46%),
+             radial-gradient(ellipse at 90% 100%,rgba(0,113,227,.07),transparent 40%);
+}
+.work .wrap,.contact>*{position:relative}
+.clip{
+  border:1px solid rgba(255,255,255,.68);
+  box-shadow:0 8px 26px rgba(20,35,60,.10),inset 0 1px 0 rgba(255,255,255,.22);
+}
+.clip::after{
+  content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;
+  background:linear-gradient(140deg,rgba(255,255,255,.22),transparent 24%,transparent 68%,rgba(255,255,255,.10));
+  opacity:.7;transition:opacity .35s ease;
+}
+.clip:hover::after{opacity:1}
+.clip .ic{
+  border:1px solid rgba(255,255,255,.44);
+  background:rgba(255,255,255,.22);
+  box-shadow:0 4px 18px rgba(0,0,0,.10),inset 0 1px 0 rgba(255,255,255,.35);
+}
+.about{
+  position:relative;
+  background:radial-gradient(ellipse at 50% 0%,rgba(0,113,227,.055),transparent 58%),var(--bg);
+}
+.brands span{
+  border:1px solid rgba(255,255,255,.92);
+  background:rgba(255,255,255,.56);
+  box-shadow:0 8px 24px rgba(20,35,60,.055),inset 0 1px 0 rgba(255,255,255,.95);
+  -webkit-backdrop-filter:blur(18px) saturate(170%);
+  backdrop-filter:blur(18px) saturate(170%);
+}
+.brands span:hover{
+  box-shadow:0 12px 30px rgba(20,35,60,.10),inset 0 1px 0 rgba(255,255,255,1);
+}
+.contact{
+  position:relative;overflow:hidden;
+  background:linear-gradient(135deg,rgba(239,244,251,.96),rgba(248,250,253,.88));
+}
+.contact a.mail,.contact a.phone{
+  padding:12px 22px;border-radius:999px;
+  background:rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.9);
+  box-shadow:0 10px 32px rgba(20,35,60,.07),inset 0 1px 0 rgba(255,255,255,.96);
+  -webkit-backdrop-filter:blur(20px) saturate(180%);
+  backdrop-filter:blur(20px) saturate(180%);
+  transition:transform .3s ease,box-shadow .3s ease;
+}
+.contact a.mail:hover,.contact a.phone:hover{transform:translateY(-2px);box-shadow:0 15px 36px rgba(20,35,60,.12),inset 0 1px 0 #fff}
+footer{background:rgba(255,255,255,.58)}
+@supports (backdrop-filter:url(#liquid-glass)){
+  .brands span,.contact a.mail,.contact a.phone{backdrop-filter:url(#liquid-glass) blur(18px) saturate(175%)}
+}
+@media (prefers-reduced-transparency:reduce){
+  .brands span,.contact a.mail,.contact a.phone,.nav{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--alt)}
+}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:20;height:48px;background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid color-mix(in srgb,var(--text) 10%,transparent)}
+.nav .in{max-width:980px;margin:0 auto;padding:0 22px;height:100%;display:flex;align-items:center;justify-content:space-between;font-size:14px}
+.nav b{text-transform:uppercase;font-weight:600}
+.nav a{text-decoration:none;color:var(--blue);font-weight:600}
+.nav a:hover{text-decoration:underline}
+
+/* buttons */
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-size:17px;font-weight:600;padding:12px 24px;border-radius:980px;transition:transform .25s ease,background .25s ease,box-shadow .25s ease}
+.btn:hover{background:var(--blue-h)}
+.link{color:var(--blue);text-decoration:none;font-size:19px;font-weight:500;transition:opacity .25s ease,transform .25s ease}
+.link:hover{text-decoration:underline}
+
+/* hero */
+.hero{
+  position:relative;isolation:isolate;overflow:hidden;
+  min-height:560px;text-align:center;padding:100px 22px 84px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:#fff;background:#111;
+}
+.hero-bg{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.50),rgba(0,0,0,.62))}
+.hero h1,.hero p{color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.24)}
+.hero .cta{position:relative}
+.hero .link{color:#fff}
+.hero .btn{
+  box-shadow:0 8px 28px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.36);
+  border:1px solid rgba(255,255,255,.42);
+}
+.hero .link{
+  padding:10px 16px;border-radius:999px;
+  background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.32);
+  -webkit-backdrop-filter:blur(18px) saturate(165%);
+  backdrop-filter:blur(18px) saturate(165%);
+}
+.hero h1{font-size:clamp(38px,8vw,76px);line-height:1.35;font-weight:800;max-width:16ch;text-wrap:balance}
+.hero p{font-size:clamp(16px,2vw,21px);color:#fff;margin-top:16px;font-weight:500;line-height:1.8;max-width:34ch}
+.hero .cta{margin-top:28px;display:flex;gap:26px;justify-content:center;align-items:center;flex-wrap:wrap}
+
+/* work */
+.work{background:var(--alt);padding:72px 0 88px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+.work h2{font-size:clamp(32px,5vw,48px);font-weight:700;margin-bottom:32px;text-align:center}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(5,1fr)}
+@media(max-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:780px){.grid{grid-template-columns:repeat(3,1fr);gap:14px}}
+@media(max-width:560px){.grid{grid-template-columns:repeat(2,1fr);gap:12px}}
+.clip{position:relative;aspect-ratio:9/16;border:0;background:#1d1d1f;border-radius:var(--radius);overflow:hidden;cursor:pointer;display:block;width:100%;color:#fff;transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s ease;}
+.clip:hover{transform:translateY(-5px) scale(1.015);box-shadow:0 16px 34px rgba(0,0,0,.14)}
+.clip video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.clip .ic{position:absolute;inset-inline-start:12px;bottom:12px;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.28);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);display:grid;place-items:center;pointer-events:none;transition:opacity .2s}
+.clip .ic svg{width:16px;height:16px;margin-left:2px}
+.clip.playing .ic{opacity:0}
+.clip.missing{display:grid;place-items:center;font-size:14px;color:var(--sub);background:var(--bg);text-align:center;padding:12px}
+.clip.missing video,.clip.missing .ic{display:none}
+.clip.missing::after{content:"ADD " attr(data-file) " TO THE SAME FOLDER";direction:ltr}
+
+/* Full video player modal */
+.player-modal{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;padding:20px}
+.player-modal.open{display:flex}
+.player-backdrop{position:absolute;inset:0;background:rgba(8,12,20,.78);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.player-shell{position:relative;z-index:1;width:min(920px,100%);max-height:94vh;overflow:auto;padding:14px;border-radius:26px;background:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.78);box-shadow:0 28px 100px rgba(0,0,0,.36);backdrop-filter:blur(28px) saturate(160%);-webkit-backdrop-filter:blur(28px) saturate(160%)}
+.player-top{display:flex;align-items:center;justify-content:space-between;padding:2px 4px 12px;font-size:13px;font-weight:700;letter-spacing:.06em;color:#333}
+.player-close{width:36px;height:36px;border:0;border-radius:50%;background:rgba(20,25,35,.08);font-size:27px;line-height:1;cursor:pointer;color:#222}
+#mainPlayer{display:block;width:100%;max-height:68vh;aspect-ratio:16/9;background:#000;border-radius:16px;object-fit:contain}
+.player-actions{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:8px;margin-top:12px}
+.player-actions button{border:1px solid rgba(255,255,255,.9);border-radius:999px;padding:10px 15px;background:rgba(255,255,255,.72);box-shadow:0 4px 14px rgba(20,35,60,.08);font:600 12px/1.2 var(--font);cursor:pointer;transition:transform .2s,background .2s}
+.player-actions button:hover{transform:translateY(-1px);background:#fff}
+.player-actions #togglePlay{background:var(--blue);color:white;border-color:var(--blue)}
+.player-hint{text-align:center;color:#777;font-size:11px;letter-spacing:.04em;margin:12px 4px 3px}
+body.player-open{overflow:hidden}
+@media(max-width:560px){.player-modal{padding:10px}.player-shell{padding:10px;border-radius:20px}#mainPlayer{aspect-ratio:9/16;max-height:65vh}.player-actions{gap:6px}.player-actions button{padding:10px 11px;font-size:11px}}
+
+/* about + contact */
+.about{padding:64px 22px 58px;text-align:center}
+.about h2{font-size:clamp(24px,3.4vw,36px);font-weight:700;max-width:24ch;margin:0 auto}
+.about p{font-size:clamp(16px,1.9vw,19px);color:var(--sub);max-width:46ch;margin:12px auto 0;font-weight:500}
+.about p.desc{color:var(--text);max-width:60ch;margin-top:22px;font-weight:400}
+.brands{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+.brands span{background:var(--alt);padding:8px 16px;border-radius:980px;font-size:15px;font-weight:600}
+
+.contact{background:var(--alt);text-align:center;padding:88px 22px}
+.contact h2{font-size:clamp(26px,4vw,40px);font-weight:700;line-height:1.5}
+.whatsapp-icon{width:21px;height:21px;flex:none;color:#25D366}
+.contact a.phone{display:inline-flex;align-items:center;justify-content:center;gap:10px}
+.contact a.mail,.contact a.phone{display:inline-block;margin:20px 7px 0;font-size:clamp(18px,3.5vw,28px);font-weight:600;color:var(--blue);text-decoration:none}
+.contact a.phone{display:inline-flex}
+.contact a.mail:hover{text-decoration:underline}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.16)}
+.link:hover{opacity:.8;transform:translateX(3px)}
+.brands span:hover{transform:translateY(-3px);background:color-mix(in srgb,var(--blue) 10%,var(--alt))}
+.hero h1{animation:heroRise .8s cubic-bezier(.2,.7,.2,1) both}
+.hero p{animation:heroRise .8s .12s cubic-bezier(.2,.7,.2,1) both}
+.hero .cta{animation:heroRise .8s .22s cubic-bezier(.2,.7,.2,1) both}
+@keyframes heroRise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+
+/* Refined motion and scroll reveal */
+:root{scrollbar-gutter:stable}
+body{overflow-x:clip}
+.nav{transition:background .35s ease,box-shadow .35s ease,backdrop-filter .35s ease}
+.nav a,.btn,.link,.contact a,.player-actions button,.player-close{will-change:transform;transition-timing-function:cubic-bezier(.2,.7,.2,1)}
+.hero-bg{transform:scale(1.035);animation:heroDrift 24s ease-in-out infinite alternate;will-change:transform}
+@keyframes heroDrift{from{transform:scale(1.035) translate3d(0,0,0)}to{transform:scale(1.105) translate3d(0,-1%,0)}}
+.work h2,.about h2,.about p,.brands,.contact h2,.contact a,.clip{
+  opacity:1;transform:translateY(0);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1),box-shadow .35s ease;
+}
+.js-motion .reveal-ready{opacity:0;transform:translateY(22px)}
+.js-motion .reveal-ready.is-visible{opacity:1;transform:translateY(0)}
+.js-motion .clip.reveal-ready{transition-delay:var(--reveal-delay,0ms)}
+.about h2{line-height:1.5;text-wrap:balance}
+.about p{line-height:1.9;text-wrap:pretty}
+.clip,.btn,.contact a.phone,.contact a.mail{transform-origin:center;backface-visibility:hidden}
+.clip:active,.btn:active,.contact a.phone:active,.contact a.mail:active{transform:scale(.985)}
+.clip:focus-visible{outline-offset:5px}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.35s}
+@media(max-width:650px){.hero{min-height:500px;padding:82px 18px 68px}.work{padding:58px 0 68px}.about{padding:50px 20px}.contact{padding:68px 18px}.hero .cta{gap:12px}}
+
+footer{text-align:center;color:var(--sub);font-size:13px;padding:24px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden">
+  <filter id="liquid-glass" x="-15%" y="-15%" width="130%" height="130%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="8" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+
+<nav class="nav" aria-label="Navigation">
+  <div class="in">
+    <b class="ltr">Iheb Hamrouni</b>
+    <a href="#contact">تواصل معايا</a>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <img class="hero-bg" src="BG.jpg" alt="" aria-hidden="true">
+    <h1>من صورة المنتج إلى فيديو إحترافي</h1>
+    <p dir="ltr" lang="en">Video creatives with voiceover for your e-commerce business. 5 years of experience.</p>
+    <div class="cta">
+      <a class="btn" href="#work">شوف خدمتي</a>
+      <a class="link" href="#contact">نحكيو ‹</a>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="wrap">
+      <h2>خدمتي</h2>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>محتوى يخلّي الماركة متاعك تبرز.</h2>
+    <p>إعلانات قصيرة توصل الفكرة وتحرّك الحريف.</p>
+    <p class="desc">نخدم creatives فيديو للمنتوجات متاعك بأسلوب طبيعي وقريب من الناس، مع voiceover بصوت واضح يشرح المنتج ويقنّع الحريف باش يشري. عندي 5 سنين خبرة في المجال، ابعثلي صورة المنتج وأنا نحوّلها لفيديو احترافي يعاونك تبيع أكثر في الـ e-commerce متاعك.</p>
+    <div class="brands">
+      <span>5 سنين خبرة</span>
+      <span>Creatives طبيعية</span>
+      <span>Voiceover بالدارجة</span>
+      <span>فيديو عمودي 9:16</span>
+      <span>للمشاريع الإلكترونية</span>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>خلينا نخدمو الإعلان الجاي متاعك.</h2>
+    <a class="phone ltr" href="https://wa.me/21628841422" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Iheb">
+      <svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.52 3.48A11.8 11.8 0 0 0 12.13 0C5.6 0 .28 5.31.28 11.85c0 2.09.55 4.13 1.59 5.93L.18 24l6.38-1.67a11.86 11.86 0 0 0 5.57 1.42h.01C18.67 23.75 24 18.43 24 11.89c0-3.17-1.23-6.15-3.48-8.41ZM12.14 21.7h-.01a9.85 9.85 0 0 1-5.02-1.37l-.36-.21-3.79.99 1.01-3.69-.23-.38a9.84 9.84 0 0 1-1.51-5.19c0-5.45 4.44-9.89 9.9-9.89a9.82 9.82 0 0 1 7 2.9 9.82 9.82 0 0 1 2.9 7.01c0 5.45-4.44 9.89-9.89 9.89Zm5.43-7.4c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg>
+      <span>28841422</span>
+    </a>
+    <a class="mail ltr" href="mailto:ihamrouni194@gmail.com">ihamrouni194@gmail.com</a>
+  </section>
+</main>
+
+<div class="player-modal" id="playerModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Video player">
+  <div class="player-backdrop" data-close-player></div>
+  <div class="player-shell" dir="ltr">
+    <div class="player-top"><span id="playerTitle">VIDEO 1 / 10</span><button class="player-close" id="playerClose" aria-label="Close player">×</button></div>
+    <video id="mainPlayer" controls playsinline preload="metadata"></video>
+    <div class="player-actions">
+      <button type="button" id="prevVideo" aria-label="Previous video">‹ PREV</button>
+      <button type="button" id="back10" aria-label="Rewind 10 seconds">↶ BACK 10S</button>
+      <button type="button" id="togglePlay" aria-label="Play or pause">Ⅱ PAUSE</button>
+      <button type="button" id="forward10" aria-label="Forward 10 seconds">FORWARD 10S ↷</button>
+      <button type="button" id="nextVideo" aria-label="Next video">NEXT ›</button>
+    </div>
+    <p class="player-hint">Use the control bar to seek, adjust volume, or go fullscreen.</p>
+  </div>
+</div>
+
+<footer>© <span id="y"></span> Iheb Hamrouni</footer>
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+
+const grid = document.getElementById('grid');
+const modal = document.getElementById('playerModal');
+const player = document.getElementById('mainPlayer');
+const playerTitle = document.getElementById('playerTitle');
+const togglePlay = document.getElementById('togglePlay');
+let activeVideo = 1;
+
+for (let i = 1; i <= 10; i++) {
+  const b = document.createElement('button');
+  b.className = 'clip';
+  b.dataset.file = i + '.mp4';
+  b.setAttribute('aria-label', 'OPEN VIDEO ' + i + ' IN PLAYER');
+  b.innerHTML = '<video src="' + i + '.mp4#t=0.8" preload="metadata" muted playsinline tabindex="-1"></video><span class="ic"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></span>';
+  const preview = b.querySelector('video');
+  preview.addEventListener('error', () => b.classList.add('missing'));
+  b.addEventListener('click', () => openPlayer(i));
+  grid.appendChild(b);
+}
+
+function openPlayer(number) {
+  activeVideo = Math.max(1, Math.min(10, number));
+  player.pause();
+  player.src = activeVideo + '.mp4';
+  player.load();
+  playerTitle.textContent = 'VIDEO ' + activeVideo + ' / 10';
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('player-open');
+  togglePlay.textContent = '▶ PLAY';
+  player.play().then(() => updatePlayButton()).catch(() => updatePlayButton());
+  document.getElementById('playerClose').focus();
+}
+function closePlayer() {
+  player.pause();
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('player-open');
+}
+function changeVideo(delta) { openPlayer(Math.max(1, Math.min(10, activeVideo + delta))); }
+function seekBy(seconds) {
+  if (!Number.isFinite(player.duration)) return;
+  player.currentTime = Math.max(0, Math.min(player.duration, player.currentTime + seconds));
+}
+function updatePlayButton() {
+  togglePlay.textContent = player.paused ? '▶ PLAY' : 'Ⅱ PAUSE';
+  togglePlay.setAttribute('aria-label', player.paused ? 'Play video' : 'Pause video');
+}
+
+document.getElementById('playerClose').addEventListener('click', closePlayer);
+document.querySelectorAll('[data-close-player]').forEach(el => el.addEventListener('click', closePlayer));
+document.getElementById('prevVideo').addEventListener('click', () => changeVideo(-1));
+document.getElementById('nextVideo').addEventListener('click', () => changeVideo(1));
+document.getElementById('back10').addEventListener('click', () => seekBy(-10));
+document.getElementById('forward10').addEventListener('click', () => seekBy(10));
+togglePlay.addEventListener('click', () => { if (player.paused) player.play().catch(() => {}); else player.pause(); });
+player.addEventListener('play', updatePlayButton);
+player.addEventListener('pause', updatePlayButton);
+player.addEventListener('ended', updatePlayButton);
+document.addEventListener('keydown', e => {
+  if (!modal.classList.contains('open')) return;
+  if (e.key === 'Escape') closePlayer();
+  else if (e.key === 'ArrowRight') seekBy(10);
+  else if (e.key === 'ArrowLeft') seekBy(-10);
+  else if (e.key === ' ' && !['INPUT','TEXTAREA','BUTTON'].includes(document.activeElement.tagName)) {
+    e.preventDefault(); if (player.paused) player.play().catch(() => {}); else player.pause();
+  }
+});
+
+// Reveal content gently as it enters the viewport; content remains visible if unsupported.
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.documentElement.classList.add('js-motion');
+  const revealTargets = document.querySelectorAll('.work h2, .about h2, .about p, .brands, .contact h2, .contact a, .clip');
+  revealTargets.forEach((el, i) => {
+    el.classList.add('reveal-ready');
+    if (el.classList.contains('clip')) el.style.setProperty('--reveal-delay', (i % 5) * 45 + 'ms');
+  });
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -35px 0px' });
+  revealTargets.forEach(el => revealObserver.observe(el));
+}
+</script>
+</body>
+</html>
